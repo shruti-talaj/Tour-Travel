@@ -1,0 +1,396 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+#Navbar {
+    background: #57b4da;
+    background-color: lemonchiffon;
+}
+
+#logo {
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+    text-shadow: 1px 1px 1px black;
+    margin-bottom: 5px;
+}
+
+#logo span {
+    color: rgb(211, 155, 0);
+}
+
+.navbar-toggler span {
+    color: #ebde33;
+}
+
+.navbar-nav {
+    margin-left: 20px;
+}
+
+.nav-item .nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5 ease;
+    -webkit-transition: 0.5 ease;
+    -moz-transition: 0.5 ease;
+    -ms-transition: 0.5 ease;
+    -o-transition: 0.5 ease;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.nav-item .nav-link:hover {
+    background-color: #ffee00;
+    color: #f9f9f9;
+}
+
+.home {
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url(https://wallpaperaccess.com/full/4455673.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home .content {
+    text-align: center;
+    padding-top: 200px;
+}
+
+.home .content h5 {
+    color: white;
+    font-size: 38px;
+    font-weight: 550;
+    text-shadow: 0px 1px 1px black;
+}
+
+.home .content h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: 550;
+    text-shadow: 0px 1px 1px black;
+    margin-top: 5px;
+}
+
+.changecontent::after {
+    content: ' ';
+    color: #ffa500;
+    text-shadow: 0px 1px 1px black;
+    animation: changetext 10s infinite linear;
+}
+
+@keyframes changetext {
+    0% {
+        content: "Agra";
+    }
+    10% {
+        content: "Delhi";
+    }
+    20% {
+        content: "Varanasi ";
+    }
+    30% {
+        content: "Mumbai";
+    }
+    40% {
+        content: "Ladakh";
+    }
+    50% {
+        content: "Kolkata";
+    }
+    60% {
+        content: "Jaisalmer";
+    }
+    70% {
+        content: "Bodhgaya";
+    }
+    80% {
+        content: "Darjeeling";
+    }
+    90% {
+        content: "Hampi";
+    }
+    100% {
+        content: "Kerala Backwaters";
+    }
+}
+
+.home .content p {
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.home .content a {
+    padding: 10px;
+    background: white;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 550;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.home .content a:hover {
+    background: #ffa500;
+    color: white;
+}
+
+@media (max-width:850px) {
+    .home {
+        background-position: 50%;
+    }
+}
+
+@media (max-width:450px) {
+    .home .content h5 {
+        font-size: 25px;
+    }
+    .home .content h1 {
+        font-size: 38px;
+    }
+    .home .content p {
+        font-size: 13px;
+    }
+}
+
+.Book {
+    background-image: url("https://th.bing.com/th/id/OIP.OsNwiseTp-wpmOKF_-kK-gHaEo?w=302&h=187&c=7&r=0&o=5&pid=1.7");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+
+.main-text h1 {
+    text-align: center;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 600;
+}
+
+@media (max-width:765px) {
+    .Book {
+        padding: 0;
+    }
+    .main-text h1 {
+        padding: 20px;
+    }
+}
+
+.main-text h1 span {
+    color: #ffa500;
+}
+
+.Book .card {
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+}
+
+.Book .row {
+    margin-top: 10px;
+}
+
+.Book .btn.btn-warning {
+    margin-inline-start: 36%;
+}
+
+.main-txt h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+}
+
+.main-txt h1 span {
+    color: #ffa500;
+}
+
+.card-img,
+.card-img-bottom,
+.card-img-top {
+    width: 100%;
+    height: 77%;
+}
+
+.container h5 {
+    font-size: 1.25rem;
+    font-family: system-ui;
+    font-weight: 700;
+}
+
+.main-txt h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+}
+
+.main-txt h1 span {
+    color: #ffa500;
+}
+
+.packages .card {
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.packages .card img {
+    border-radius: 5px;
+}
+
+.packages .card .card-body {
+    background: transparent;
+}
+
+.packages .card .card-body h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.packages .card .card-body p {
+    font-size: 15px;
+}
+
+.checked {
+    color: #ffa500;
+}
+
+.star i {
+    font-size: 15px;
+}
+
+.packages .card .card-body h6 {
+    font-size: 20px;
+}
+
+.packages .card .card-body a {
+    padding: 10px;
+    text-decoration: none;
+    background: #ffa500;
+    color: white;
+    border-radius: 5px;
+}
+
+.main-txt h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+}
+
+.main-txt h1 span {
+    color: #ffa500;
+}
+
+.gallary {
+    margin-top: 50px;
+}
+
+.gallary .card {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    cursor: pointer;
+}
+
+.gallary .card img {
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.gallary .card img:hover {
+    transform: scale(1.1);
+}
+
+.about {
+    padding: 50px;
+    margin-top: 50px;
+    background: #f9f9f9;
+}
+
+.about .card {
+    border-radius: 10px;
+}
+
+.about .card img {
+    border-radius: 10px;
+}
+
+.about h2 {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.about p {
+    font-weight: 500;
+}
+
+#about-btn {
+    width: 150px;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    background: #ffa500;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 550;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#about-btn:hover {
+    width: 170px;
+}
+
+@media (max-width:765px) {
+    .about {
+        padding: 0;
+    }
+}
+
+#footer {
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+#footer h1 {
+    font-weight: 600;
+    padding-top: 30px;
+    text-shadow: 0px 0px 1px black;
+}
+
+#footer h1 span {
+    color: #ffa500;
+}
+
+.social-links i {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    background: black;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.social-links i:hover {
+    background: #ffa500;
+}
